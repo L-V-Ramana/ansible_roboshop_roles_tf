@@ -44,9 +44,9 @@
   ignore_errors: true
   ignore_unreachable: true
   
-- name: changing app version
-  tags:
-  - deployment  
-  import_role:
-    name: common
-    tasks_from: deployment.yaml
+# - name: changing app version
+#   tags:
+#   - deployment  
+#   import_role:
+#     name: common
+#     tasks_from: deployment.yaml
